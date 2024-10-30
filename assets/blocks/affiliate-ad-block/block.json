@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "hungry-flamingo-wp-affiliate-links/affiliate-ad-block",
+  "title": "Affiliate Ad Block",
+  "description": "Adds a standartized beautiful affiliate ad block.",
+  "keywords": ["affiliate", "affiliate ad", "self-hosted ad"],
+  "category": "hungry-flamingo",
+  "textdomain": "hungry-flamingo-wp-affiliate-links",
+  "icon": "megaphone",
+  "supports": {
+    "align": ["wide"]
+  },
+  "editorScript": "file:build/hungry-flamingo-wp-affiliate-links-blocks-affiliate-ad-block.min.js"
+}

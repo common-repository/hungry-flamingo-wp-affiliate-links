@@ -1,0 +1,927 @@
+{
+    "packages": [
+        {
+            "name": "ayecode/wp-super-duper",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AyeCode/wp-super-duper.git",
+                "reference": "ffbd740273dde423206c13c680ee90202b334799"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AyeCode/wp-super-duper/zipball/ffbd740273dde423206c13c680ee90202b334799",
+                "reference": "ffbd740273dde423206c13c680ee90202b334799",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "*",
+                "squizlabs/php_codesniffer": "^3.2",
+                "wp-coding-standards/wpcs": "*"
+            },
+            "time": "2021-10-07T19:33:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "sd-functions.php"
+                ],
+                "classmap": [
+                    "wp-super-duper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AyeCode Ltd",
+                    "email": "contact@ayecode.io",
+                    "homepage": "https://ayecode.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lets you create a widget, block and shortcode all from the one file .",
+            "homepage": "https://github.com/AyeCode/wp-super-duper",
+            "keywords": [
+                "super duper",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "issues": "https://github.com/AyeCode/wp-super-duper/issues",
+                "source": "https://github.com/AyeCode/wp-super-duper/tree/2.0.2"
+            },
+            "install-path": "../ayecode/wp-super-duper"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.12.0",
+            "version_normalized": "1.12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "time": "2021-09-13T08:19:44+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.12.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./installers"
+        },
+        {
+            "name": "inpsyde/wp-context",
+            "version": "1.3.1",
+            "version_normalized": "1.3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/wp-context.git",
+                "reference": "d41b3b5d6fc8f5b9de3e832f7a79922d6446583c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/wp-context/zipball/d41b3b5d6fc8f5b9de3e832f7a79922d6446583c",
+                "reference": "d41b3b5d6fc8f5b9de3e832f7a79922d6446583c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.4.2",
+                "inpsyde/php-coding-standards": "^1",
+                "johnpbloch/wordpress-core": "@stable",
+                "mockery/mockery": "~1.3.3",
+                "phpunit/phpunit": "~7.5.20 || ^8",
+                "vimeo/psalm": "@stable"
+            },
+            "time": "2021-10-19T12:40:19+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inpsyde\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "gpl-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Inpsyde GmbH",
+                    "email": "hello@inpsyde.com",
+                    "homepage": "https://inpsyde.com/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Giuseppe Mazzapica",
+                    "email": "g.mazzapica@inpsyde.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A single-class utility to check the running context in WordPress sites.",
+            "support": {
+                "issues": "https://github.com/inpsyde/wp-context/issues",
+                "source": "https://github.com/inpsyde/wp-context/tree/1.3.1"
+            },
+            "install-path": "../inpsyde/wp-context"
+        },
+        {
+            "name": "johnbillion/args",
+            "version": "0.9.0",
+            "version_normalized": "0.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnbillion/args.git",
+                "reference": "a1a3feb05cc9fc3914ed96eeab009259aea326c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnbillion/args/zipball/a1a3feb05cc9fc3914ed96eeab009259aea326c1",
+                "reference": "a1a3feb05cc9fc3914ed96eeab009259aea326c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^1.1",
+                "johnbillion/falsey-assertequals-detector": "^3",
+                "phpdocumentor/reflection": "~4.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.0",
+                "roots/wordpress": "^5.7.0"
+            },
+            "time": "2021-12-18T21:21:14+00:00",
+            "type": "library",
+            "extra": {
+                "wordpress-install-dir": "vendor/wordpress/wordpress"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Args\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John Blackbourn",
+                    "homepage": "https://johnblackbourn.com/"
+                }
+            ],
+            "description": "I don't want to get into an argument about this.",
+            "support": {
+                "issues": "https://github.com/johnbillion/args/issues",
+                "source": "https://github.com/johnbillion/args/tree/0.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/johnbillion",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../johnbillion/args"
+        },
+        {
+            "name": "johnbillion/extended-cpts",
+            "version": "5.0.2",
+            "version_normalized": "5.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnbillion/extended-cpts.git",
+                "reference": "6b208d7b46fb065a4da426ab4502fdf4de0c1446"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/6b208d7b46fb065a4da426ab4502fdf4de0c1446",
+                "reference": "6b208d7b46fb065a4da426ab4502fdf4de0c1446",
+                "shasum": ""
+            },
+            "require": {
+                "johnbillion/args": "^0.9.0",
+                "php": ">= 7.4.0"
+            },
+            "require-dev": {
+                "automattic/phpcs-neutron-standard": "1.7.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "johnbillion/falsey-assertequals-detector": "*",
+                "lucatume/wp-browser": "^3.0",
+                "phpcompatibility/phpcompatibility-wp": "^2",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9",
+                "roots/wordpress": "^5.8.0",
+                "szepeviktor/phpstan-wordpress": "^1.0",
+                "vlucas/phpdotenv": "^3",
+                "wp-cli/core-command": "^2",
+                "wp-cli/db-command": "^2",
+                "wp-coding-standards/wpcs": "2.3.0"
+            },
+            "suggest": {
+                "seravo/wp-custom-bulk-actions": "Custom Bulk Actions",
+                "wpackagist-plugin/rewrite-testing": "Rewrite Rule Testing"
+            },
+            "time": "2022-04-30T14:39:50+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "5.0-dev"
+                },
+                "wordpress-install-dir": "tests/wordpress"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "ExtCPTs\\": "src",
+                    "ExtCPTs\\Tests\\": "tests/integration"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John Blackbourn",
+                    "homepage": "https://johnblackbourn.com/"
+                }
+            ],
+            "description": "A library which provides extended functionality to WordPress custom post types and taxonomies.",
+            "homepage": "https://github.com/johnbillion/extended-cpts/",
+            "support": {
+                "issues": "https://github.com/johnbillion/extended-cpts/issues",
+                "source": "https://github.com/johnbillion/extended-cpts/tree/5.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/johnbillion",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../johnbillion/extended-cpts"
+        },
+        {
+            "name": "julien731/wp-dismissible-notices-handler",
+            "version": "1.2.2",
+            "version_normalized": "1.2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/julien731/WP-Dismissible-Notices-Handler.git",
+                "reference": "062b1472ddbac450f87a85fc4b979e04cde3a344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/julien731/WP-Dismissible-Notices-Handler/zipball/062b1472ddbac450f87a85fc4b979e04cde3a344",
+                "reference": "062b1472ddbac450f87a85fc4b979e04cde3a344",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "time": "2021-02-17T15:56:18+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "handler.php",
+                    "includes/helper-functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Julien Liabeuf",
+                    "email": "julien@liabeuf.fr",
+                    "homepage": "https://julienliabeuf.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A simple library to handle Ajax-dismissible admin notices for WordPress",
+            "homepage": "https://github.com/julien731/WP-Dismissible-Notices-Handler",
+            "support": {
+                "issues": "https://github.com/julien731/WP-Dismissible-Notices-Handler/issues",
+                "source": "https://github.com/julien731/WP-Dismissible-Notices-Handler/tree/1.2.2"
+            },
+            "install-path": "../julien731/wp-dismissible-notices-handler"
+        },
+        {
+            "name": "julien731/wp-review-me",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/julien731/WP-Review-Me.git",
+                "reference": "cb43e768e0dc1e2eb8e1a3a96ffa3dfd9f890602"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/julien731/WP-Review-Me/zipball/cb43e768e0dc1e2eb8e1a3a96ffa3dfd9f890602",
+                "reference": "cb43e768e0dc1e2eb8e1a3a96ffa3dfd9f890602",
+                "shasum": ""
+            },
+            "require": {
+                "julien731/wp-dismissible-notices-handler": "1.*",
+                "php": ">=5.5.0"
+            },
+            "time": "2016-09-27T04:04:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "review.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Julien Liabeuf",
+                    "email": "julien@liabeuf.fr",
+                    "homepage": "https://julienliabeuf.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A lightweight library to help you get more reviews for your WordPress theme/plugin",
+            "homepage": "https://github.com/julien731/WP-Review-Me",
+            "support": {
+                "issues": "https://github.com/julien731/WP-Review-Me/issues",
+                "source": "https://github.com/julien731/WP-Review-Me/tree/develop"
+            },
+            "install-path": "../julien731/wp-review-me"
+        },
+        {
+            "name": "micropackage/internationalization",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/internationalization.git",
+                "reference": "8de158b8fc71557a8310f0d98d2b8ad9f4f44dd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/internationalization/zipball/8de158b8fc71557a8310f0d98d2b8ad9f4f44dd5",
+                "reference": "8de158b8fc71557a8310f0d98d2b8ad9f4f44dd5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "time": "2020-02-04T19:48:51+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Internationalization\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Internationalization (i18n) wrapper for WordPress plugins, themes or libraries",
+            "support": {
+                "issues": "https://github.com/micropackage/internationalization/issues",
+                "source": "https://github.com/micropackage/internationalization/tree/1.0.1"
+            },
+            "install-path": "../micropackage/internationalization"
+        },
+        {
+            "name": "micropackage/requirements",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/requirements.git",
+                "reference": "114d49df7c5860108c008853b514d9a7eccaedf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/requirements/zipball/114d49df7c5860108c008853b514d9a7eccaedf3",
+                "reference": "114d49df7c5860108c008853b514d9a7eccaedf3",
+                "shasum": ""
+            },
+            "require": {
+                "micropackage/internationalization": "^1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-mock/php-mock-phpunit": "^2.5",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpunit/phpunit": "^6.5.5",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "time": "2022-01-20T14:02:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Requirements\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Requirements checker for WordPress plugins",
+            "support": {
+                "issues": "https://github.com/micropackage/requirements/issues",
+                "source": "https://github.com/micropackage/requirements/tree/1.2.0"
+            },
+            "install-path": "../micropackage/requirements"
+        },
+        {
+            "name": "seravo/wp-custom-bulk-actions",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seravo/wp-custom-bulk-actions.git",
+                "reference": "36e7be343867be4a054e1b8df815fe7ea3850b52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seravo/wp-custom-bulk-actions/zipball/36e7be343867be4a054e1b8df815fe7ea3850b52",
+                "reference": "36e7be343867be4a054e1b8df815fe7ea3850b52",
+                "shasum": ""
+            },
+            "time": "2020-07-28T12:16:03+00:00",
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Otto Kekäläinen",
+                    "email": "otto@seravo.com",
+                    "homepage": "https://github.com/ottok"
+                },
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@seravo.fi",
+                    "homepage": "https://github.com/onnimonni"
+                }
+            ],
+            "description": "Custom bulk actions for any type of posts in WordPress.",
+            "homepage": "https://github.com/Seravo/wp-custom-bulk-actions",
+            "keywords": [
+                "bulk action",
+                "custom",
+                "posts",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Seravo/wp-custom-bulk-actions/issues",
+                "source": "https://github.com/Seravo/wp-custom-bulk-actions/tree/master"
+            },
+            "install-path": "../seravo/wp-custom-bulk-actions"
+        },
+        {
+            "name": "stevegrunwell/wp-cache-remember",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevegrunwell/wp-cache-remember.git",
+                "reference": "f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevegrunwell/wp-cache-remember/zipball/f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e",
+                "reference": "f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "wimg/php-compatibility": "^8.1",
+                "wp-coding-standards/wpcs": "^0.14"
+            },
+            "time": "2018-06-14T05:10:34+00:00",
+            "type": "wordpress-muplugin",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "wp-cache-remember.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Grunwell",
+                    "email": "steve@stevegrunwell.com",
+                    "homepage": "https://stevegrunwell.com"
+                }
+            ],
+            "description": "Helper for the WordPress object cache and transients",
+            "keywords": [
+                "wordpress",
+                "wordpress-object-cache",
+                "wordpress-plugin",
+                "wordpress-transients"
+            ],
+            "support": {
+                "issues": "https://github.com/stevegrunwell/wp-cache-remember/issues",
+                "source": "https://github.com/stevegrunwell/wp-cache-remember"
+            },
+            "install-path": "../stevegrunwell/wp-cache-remember"
+        },
+        {
+            "name": "wpbp/cronplus",
+            "version": "1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPBP/CronPlus.git",
+                "reference": "3f0e83967429f3f21a307177c028236ac598eaf5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPBP/CronPlus/zipball/3f0e83967429f3f21a307177c028236ac598eaf5",
+                "reference": "3f0e83967429f3f21a307177c028236ac598eaf5",
+                "shasum": ""
+            },
+            "time": "2018-08-13T16:43:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "cronplus.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Scasciafratte",
+                    "email": "mte90net@gmail.com",
+                    "homepage": "http://mte90.net"
+                }
+            ],
+            "description": "Add/Remove a WordPress Cron job easily",
+            "homepage": "https://github.com/WPBP/CronPlus",
+            "keywords": [
+                "cron",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/WPBP/CronPlus/issues",
+                "source": "https://github.com/WPBP/CronPlus/tree/master"
+            },
+            "install-path": "../wpbp/cronplus"
+        },
+        {
+            "name": "wpdesk/wp-builder",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/wpdesk/wp-builder.git",
+                "reference": "234e4617ee331febcd64587cc2b5268f45764abd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/wpdesk%2Fwp-builder/repository/archive.zip?sha=234e4617ee331febcd64587cc2b5268f45764abd",
+                "reference": "234e4617ee331febcd64587cc2b5268f45764abd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "10up/wp_mock": "*",
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "<7",
+                "squizlabs/php_codesniffer": "^3.0.2",
+                "wimg/php-compatibility": "^8",
+                "wp-coding-standards/wpcs": "^0.14.1"
+            },
+            "time": "2021-09-19T13:24:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPDesk\\PluginBuilder\\": "src/"
+                },
+                "classmap": [
+                    "src/Plugin/WithoutNamespace"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Krzysiek",
+                    "email": "krzysiek@wpdesk.pl"
+                }
+            ],
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/6094305/issues"
+            },
+            "install-path": "../wpdesk/wp-builder"
+        },
+        {
+            "name": "wpdesk/wp-notice",
+            "version": "3.2.0",
+            "version_normalized": "3.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:wpdesk/wp-notice.git",
+                "reference": "02cc7cd0e2086b331eebd5f91aa7dae0d6900870"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/wpdesk%2Fwp-notice/repository/archive.zip?sha=02cc7cd0e2086b331eebd5f91aa7dae0d6900870",
+                "reference": "02cc7cd0e2086b331eebd5f91aa7dae0d6900870",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "wpdesk/wp-builder": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "*",
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "<7",
+                "squizlabs/php_codesniffer": "^3.0.2",
+                "wimg/php-compatibility": "^8",
+                "wp-coding-standards/wpcs": "^0.14.1"
+            },
+            "time": "2022-06-06T16:36:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/WPDesk/notice-functions.php"
+                ],
+                "psr-4": {
+                    "WPDesk\\Notice\\": "src/WPDesk/Notice/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "grola",
+                    "email": "grola@wpdesk.net"
+                }
+            ],
+            "description": "Library for displaying Wordpress notices.",
+            "homepage": "https://gitlab.com/wpdesk/wp-notice",
+            "keywords": [
+                "admin",
+                "notice",
+                "wordpress"
+            ],
+            "install-path": "../wpdesk/wp-notice"
+        },
+        {
+            "name": "yoast/i18n-module",
+            "version": "3.1.1",
+            "version_normalized": "3.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/i18n-module.git",
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/9d0a2f6daea6fb42376b023e7778294d19edd85d",
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-master",
+                "yoast/yoastcs": "^1.2.2"
+            },
+            "time": "2019-05-07T06:45:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Handle i18n for WordPress plugins.",
+            "homepage": "https://github.com/Yoast/i18n-module",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/i18n-module/issues",
+                "source": "https://github.com/Yoast/i18n-module"
+            },
+            "install-path": "../yoast/i18n-module"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
